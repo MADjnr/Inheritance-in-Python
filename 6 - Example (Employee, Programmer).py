@@ -20,3 +20,6 @@ nora = Programmer("Nora Nav", 60000, "Python")
 print(nora.full_name)
 print(nora.salary)
 print(nora.programming_language)
+
+
+

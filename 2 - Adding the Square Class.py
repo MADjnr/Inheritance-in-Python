@@ -13,3 +13,16 @@ class Triangle(Polygon):
 
 class Square(Polygon):
     pass
+
+
+
+class Dog:
+    pass
+
+class BullDOg(Dog):
+    pass
+
+class Rot(Dog):
+    pass
+
+

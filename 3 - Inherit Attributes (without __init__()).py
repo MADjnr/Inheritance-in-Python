@@ -18,3 +18,18 @@ my_triangle = Triangle(3, "Blue")
 
 print(my_triangle.num_sides)
 print(my_triangle.color)
+
+
+class Signal:
+
+    def __init__(self, wavelength, time, frequency):
+        self.wavelength = wavelength
+        self.time = time
+        self.freqency = 30
+
+
+class NeuralSIgnal(Signal):
+    pass
+
+neuralsignal = NeuralSIgnal(40, 22, 60)
+print(neuralsignal.wavelength * 12)

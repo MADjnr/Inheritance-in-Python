@@ -26,3 +26,21 @@ print(my_triangle.num_sides)
 print(my_triangle.color)
 print(my_triangle.base)
 print(my_triangle.height)
+
+
+
+class Signal:
+
+    def __init__(self, wavelength, frequency):
+        self.wavelength = wavelength
+        self.frequency = frequency
+
+
+class NeuralSignal(Signal):
+
+    def __init__(self, wavelength, frequency, brain_location):
+        Signal.__init__(self, wavelength, frequency)
+        self.brain_location = brain_location
+
+
+
